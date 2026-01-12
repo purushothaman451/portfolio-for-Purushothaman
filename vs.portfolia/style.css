@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+body{
+    color: rgb(245, 244, 246);
+   
+
+}
+.header{
+    position : fixed;
+     top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+.logo{
+    position:relative;
+    font-size: 25px;
+    color: #e9ecef;
+    text-decoration: none;
+    font-weight:600;
+   
+
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25 px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #0ef;
+
+}
+.home{
+    position: relative;
+    width:100%;
+    justify-content: space-between;
+    height:100vh;
+    background: url("back_ground.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.home-content{
+    max-width: 600px;
+
+}
+.home-content h1
+{
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.home-sci a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 2px solid cyan;
+    border-radius: 150%;
+    font-size:20px;
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+    margin: 0px 15px 0px 0;
+
+}
+.home-sci a:hover{
+    background :#0ef;
+    color: #291708;
+    box-shadow: 0 0 20px rgb(236, 241, 241);
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius:40px;
+    font-size:16px;
+    color: rgb(20, 21, 21);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover{
+    box-shadow: 0 20 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200 px cyan;
+}
+
+    
+.about{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background: url("background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    padding: 40px 10% 40%;
+
+    
+    
+}
+
+.profile-img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(109, 208, 205);
+    position:relative;
+    width:20%;
+    height:20%;
+   
+}
+
+
+/* Skills Section Styling */
+#skill {
+    position: relative;
+    width:100%;
+    height:100vh;
+    background: url("background.png") no-repeat center/cover;
+    background-position: center;
+    background-size: cover;
+  background-color: #f9f9f9;
+  padding: 150px;
+  border-radius: 10px;
+  margin: 1px auto;
+  max-width: 1800px;
+  font-family: Arial, sans-serif;
+  display:grid;
+  align-items: center;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color:#f9f9f9;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h3 {
+  color:#f9f9f9;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.skill-category ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.skill-category li {
+  margin: 5px 0;
+  color: #f9f9f9;
+}
+/* Contact Info Styling */
+#contact-info {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 8px;
+  margin: 40px auto;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  background:url(backgorund.png)no-repeat center/cover;
+}
+
+#contact-info h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact-info li {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #444;
+}
+
+#contact-info a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+#contact-info a:hover {
+  text-decoration: underline;
+}
